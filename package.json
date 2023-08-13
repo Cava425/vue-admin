@@ -8,7 +8,9 @@
     "build": "vue-tsc && vite build",
     "preview": "vite preview",
     "lint": "eslint src",
-    "fix": "eslintsrc --fix"
+    "fix": "eslintsrc --fix",
+    "build:test": "vue-tsc && vite build --mode test",
+    "build:prod": "vue-tsc && vite build --mode production"
   },
   "dependencies": {
     "@types/node": "^20.4.10",
